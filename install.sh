@@ -8,7 +8,7 @@ then
 	mkdir /goinfre/$USER/tools
 fi
 
-#installing brew if not installed already
+#iinstalling brew if not installed already
 if [ -d "/goinfre/$USER/.brew" ] || [-L "~/.brew"] 
 then
 	echo "✅ Homebrew Is Installed Locally Already."
